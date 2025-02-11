@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem dinámica</h1>
+    <p>Tente abrir a imagem em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áuidos em HMTL</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/midia-aleatoria.mp3" type="audio/mpeg">
+        <source src="midia/midia-aleatoria.ogg" type="audio/ogg">
+        <source src="midia/midia-aleatoria.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/midia-aleatoria.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    
+</body>
+</html>

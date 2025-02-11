@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vídeos com HMTL5</title>
+  <link rel="shortcut icon" href="midia/favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+  <h1>Inserindo vídeos hospedados localmente</h1>
+  <p>Este vídeo hospedado no meu proprio servidor</p>
+
+  <video width="500" poster="imagens/2897501275_d236e84d17_z.jpg" controls loop>
+    <source src="midia/Meu-Video.mp4" type="video/mp4">
+    <source src="midia/meu-video.m4v" type="video/m4v">
+    <source src="midia/Meu-Video.webm" type="video/webm">
+    <source src="midia/meu-video.ogv" type="video/ogg">
+    <p>Seu navegador não tem compatibilida com reprodutor de Vídeos.</p>
+  </video>
+
+  <h1>Inserindo vídedos do YOUTUBE</h1>
+
+  <iframe width="500" height="300" src="https://www.youtube.com/embed/7B5YY0Q8_-A?si=7j7-vUyAiV5yftEF"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <h1>Inserindo vídoes da plataforma do vimeo</h1>
+
+  <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+      src="https://player.vimeo.com/video/154493305?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+      style="position:absolute;top:0;left:0;width:500px;height:300px;" title="Animation DemoReel 2016"></iframe></div>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+
+</html>

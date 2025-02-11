@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(85, 88, 88);
+            margin: 0px;
+        }
+
+        header{
+            background-color: rgb(128, 127, 127);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+
+        }
+        h1 {
+            text-align: center;
+        }
+
+        nav {
+            background-color: rgb(194, 193, 193);
+            padding: 3px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.327);
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(63, 62, 63);
+            font-weight: bold ;
+            margin-right: 30px;
+            
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+
+
+        main{
+            background-color: rgb(122, 121, 121);
+            padding: 10px;
+            margin: 10px; 
+            border-radius: 20px;
+        }
+
+        article{
+            background-color: rgb(181, 180, 180);
+            margin: 10px;
+            padding: 10px;
+            
+            border-radius: 12px;
+            
+        }
+        article > aside{
+            background-color: rgb(136, 136, 136);
+        }
+
+        footer{
+            background-color: rgb(0, 0, 0);
+            color: aqua;
+            text-align: center;
+            padding: 1px;
+            margin: 1px;
+            border-radius: 20px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">home</a>
+            <a href="#">contato</a>
+            <a href="#">assuntos</a>
+            <a href="#">noticias</a>
+            <a href="#">esclarecimento</a>
+        </nav>
+    </header>    
+    <main>
+      <section id="assuntos">
+        <p>Esporte Política Tecnologia </p>
+
+      </section>
+      <section id="noticias">
+        <article>
+            <h2> Noticias sobre o brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ut sed voluptatem debitis culpa saepe placeat quis eius, non laborum deleniti, iusto ipsam mollitia velit rem amet iste asperiores omnis!</p>
+            <aside>
+               <p>Artigo escrito por José Theodoro</p> 
+            </aside>
+        </article>
+        <article>
+
+        </article>
+
+      </section>
+    </main>
+    <footer>
+        <p>By winderjunior &copy;</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
