@@ -64,6 +64,10 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -73,13 +77,31 @@ section.normal {
 section.img {
     background-color: rgb(78, 78, 78);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 section.img > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.388);
+    text-shadow: 1px 1px 1px black;
 }
+
+section#img01 {
+    background-image: url(../folha.jpg);
+    background-repeat: no-repeat;
+   
+    
+
+}
+
+section#img02 {
+    background-image: url(../joaninha.jpg);
+    background-repeat: no-repeat;
+}
+
 
 
 
