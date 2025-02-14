@@ -90,7 +90,7 @@ section.img > p {
 }
 
 section#img01 {
-    background-image: url(../folha.jpg);
+    background-image: url(..//imagens/folha.jpg);
     background-repeat: no-repeat;
    
     
@@ -98,7 +98,7 @@ section#img01 {
 }
 
 section#img02 {
-    background-image: url(../joaninha.jpg);
+    background-image: url(../imagens/joaninha.jpg);
     background-repeat: no-repeat;
 }
 
